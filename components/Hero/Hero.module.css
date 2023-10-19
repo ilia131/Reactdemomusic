@@ -1,0 +1,18 @@
+
+
+
+.Carousel{
+    width: 100%;
+    background: linear-gradient(112.1deg, rgb(78, 61, 207) 11.4%, rgb(15, 6, 67) 70.2%);
+    padding: 1rem;
+}
+
+
+
+.Carousel_image{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    gap: -1rem;
+}
+

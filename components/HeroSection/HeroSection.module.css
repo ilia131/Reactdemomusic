@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../../styles/fonts/variable/Vazirmatn[wght].ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+.HeroSection{
+    background: linear-gradient(112.1deg, rgb(88, 71, 223) 11.4%, rgb(19, 8, 84) 70.2%);
+}
+
+
+.HeroSection_box_left{
+    display: flex;
+    margin-right: 3rem;
+    margin-bottom: 15rem
+}
+
+.HeroSection_box_left_left{
+    position: absolute;
+    left: 0;
+    display: grid;
+    margin-top: 0;
+    grid-template-rows: repeat(4 , 1fr);
+    gap: 2rem;
+    margin-bottom: 10rem;
+}
+
+
+.HeroSection_box_left_left button{
+    background-color: rgb(64, 0, 255);
+    height: 4rem;
+    width: 3rem;
+}
+
+.icons1{
+    font-size: 1.5rem;
+}
+
+
+
+.HeroSection_box_left h1{
+   font-family: 'Vazir';
+   text-align: center;
+   font-size: 3rem;
+   font-weight: 700;
+   margin-bottom: 2rem;
+   color: white;
+}
+
+.HeroSection_box_left p{
+    font-family: 'Vazir';
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+
+.HeroSection_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.HeroSection_box_right{
+    border-radius: 1rem;
+}
+
+.image3{
+    height: 35rem;
+    width: 30rem;
+}
+
+@media screen and (max-width: 35em) {
+    .HeroSection_box_right{
+        display: none;
+    }
+    .HeroSection_box_right_right{
+        display: grid;
+        margin-left: 2.2rem;
+        margin-top: 3rem;
+        gap: 1rem;
+    }
+    .HeroSection{
+        height: 28rem;
+    }
+}

@@ -1,0 +1,96 @@
+
+
+
+.sliderCard{
+    padding: 1rem;
+    color:white;
+  
+}
+
+
+
+
+.sliderCard_box_box{
+    display: flex;
+    align-items: center;
+    transition: all .3 ease-in;
+    padding: 1rem;
+    background: linear-gradient(112.1deg, rgb(88, 71, 223) 11.4%, rgb(19, 8, 84) 70.2%);
+  
+
+}
+
+
+.sliderCard_box_img_img{
+    width: 100%;
+    height: 20rem;
+}
+
+.sliderCard_text{
+   display: grid;
+   padding-top: 1rem;
+   padding-left: 1.7rem;
+}
+
+.sliderCard_text_price{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    padding-bottom: 1rem;
+    gap: 2rem;
+}
+
+
+.sliderCard_text p{
+    padding-bottom: 0.5rem;
+}
+
+
+.sliderCard_underpic{
+    display: grid;
+    text-align: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.btn1{
+    font-size: 2rem;
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 4rem;
+}
+
+.sliderCard_box_img_img{
+    width: 20rem;
+    height: 20rem;
+    
+}
+
+.sliderCard_box_title_box{
+    text-align: center;
+}
+
+
+.descriptions_box{
+    text-align: left;
+    position: relative;
+}
+
+
+
+
+@media screen and (min-device-width: 320px) 
+and (max-device-width: 375px) {
+    .sliderCard{
+        padding: .5rem;
+        width: 85%;
+    }
+    .sliderCard_box_title p{
+        font-size: 1rem;
+    }
+    .sliderCard_box_price_box{
+        padding: .2rem;
+    }
+    .sliderCard_box_price_time p{
+        font-size: 1rem;
+    }
+}

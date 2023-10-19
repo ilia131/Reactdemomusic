@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+.login{
+    display: grid;
+    text-align: center;
+    font-size: 2rem;    
+    padding: 10rem;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(112.1deg, rgb(78, 61, 207) 11.4%, rgb(15, 6, 67) 70.2%);
+
+ 
+}
+
+.login_box{
+    border-radius: 2rem;
+    padding: 2rem;
+    display: grid;
+    background: linear-gradient(112.1deg, rgb(78, 61, 207) 11.4%, rgb(15, 6, 67) 70.2%);
+    width: 35rem;
+}

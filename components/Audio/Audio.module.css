@@ -1,0 +1,142 @@
+
+.Audio{
+    width: 100%;
+}
+
+
+.Audio_box{
+   display: flex;
+   gap: 10rem;
+   background: linear-gradient(112.1deg, rgb(88, 71, 223) 11.4%, rgb(19, 8, 84) 70.2%);
+ 
+   width: 100%;
+}
+
+.Audio_box_left{
+   display: flex;
+   gap: 1rem;
+   padding: 1rem;
+   margin-left: 8rem;
+}
+
+.Audio_box_left button{
+    padding: 1rem;  
+}
+
+
+.Audio_box_center{
+}
+
+.Audio_box_center_box{
+    display: flex;
+    gap: 0.8rem;
+}
+
+
+.input {
+    margin-top: 2.7rem;
+    appearance: none;
+    background: linear-gradient(112.1deg, rgb(88, 71, 223) 11.4%, rgb(54, 21, 246) 70.2%);    border-radius: 1rem;
+    position: sticky;
+    width: 40rem;
+    height: 1.5rem;
+    outline: none;
+}
+
+
+
+.icons1{
+    font-size: 3.3rem;
+    color: white;
+    align-items: center;
+    padding-left: 0.1rem;
+}
+
+.btn1{
+  border: 1px solid white;
+  border-radius: 4rem;
+}
+
+.btn3{
+    margin-top: 1.1rem;
+    border: 1px solid white;
+    border-radius: 4rem;
+    height: 3.3rem;
+    color: white;
+}
+
+.icons3{
+    padding-right: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.icons2{
+    padding-left: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.btn2{
+    margin-top: 1.1rem;
+    border: 1px solid white;
+    border-radius: 4rem;
+    height: 3.3rem;
+    color: white;
+}
+
+.duration{
+    display: flex;
+    margin-top: 2.7rem;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 35em) {
+   
+    .Audio_box{
+        display: flex;
+        gap: 1rem;
+       
+    }
+    .Audio_box_left{
+        display: flex;
+        gap: 1rem;
+        padding-left: 0;
+        display: none;
+    }
+    .Audio_box_left button{
+        padding: 0.1rem;  
+    }
+    .Audio_box_center{
+        margin-left: 0.2rem;
+    
+    }
+    .Audio_box_center_box{
+        display: flex;
+    }
+    .icons1{
+        font-size: 2rem;
+    }
+
+    .input {
+        width: 13rem;
+        appearance: none;
+        background: linear-gradient(112.1deg, rgb(88, 71, 223) 11.4%, rgb(54, 21, 246) 70.2%);    border-radius: 1rem;
+        position: sticky;
+        height: 1.5rem;
+        outline: none;
+    }
+    .Audio_box_center_box{
+        display: flex;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .duration{
+        padding: auto;
+        margin-bottom: 1rem;
+    }
+
+  
+}
